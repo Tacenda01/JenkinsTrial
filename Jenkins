@@ -12,5 +12,10 @@ pipeline {
                 sh 'echo "500105015"'
             }
         }
+stage('fsai b3') {
+            steps {
+                sh 'echo "Running FSAI B3 tasks..."'
     }
+}
+}
 }
